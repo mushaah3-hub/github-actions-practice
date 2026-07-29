@@ -8,13 +8,13 @@ jobs:
     runs-on: ubuntu-latest
 
   steps:
-    -name: welcome to github actions
-    run:
-      echo"welcome to github actions"
-    -name: first workflow
-    run:
-      echo"this is myfirst workflow"
-    -name: learn CI
-     run:
-       echo"Learning CI with github Actions"
+    - name: welcome to github actions
+      run:
+        echo "welcome to github actions"
+    - name: first workflow
+      run:
+        echo "this is myfirst workflow"
+    - name: learn CI
+      run:
+       echo "Learning CI with github Actions"
 
